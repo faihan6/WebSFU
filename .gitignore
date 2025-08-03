@@ -1,0 +1,9 @@
+# node related files
+node_modules
+package-lock.json
+
+# MacOS specific files
+.DS_Store
+
+# code editor files
+.vscode
