@@ -26,35 +26,20 @@ This project demonstrates a simple SFU (Selective Forwarding Unit) running entir
   
 
 ```
-
 WebSFU/
-
-├── package.json # Node.js dependencies and scripts
-
-├── run.sh # Quick start script
-
+├── package.json                    # Node.js dependencies and scripts
+├── run.sh                         # Quick start script
 ├── src/
-
-│ ├── client/ # Client application files
-
-│ │ ├── client-page.html # Client HTML interface
-
-│ │ ├── client-script.js # Client WebRTC logic
-
-│ │ └── client-styles.css # Client styling
-
-│ ├── node/ # Node.js signaling server
-
-│ │ └── signalling-server.js # WebSocket signaling server
-
-│ └── sfu/ # Browser-based SFU implementation
-
-│ ├── sfu.html # SFU HTML interface
-
-│ ├── sfu-user-manager.js # User management and WebRTC handling
-
-│ └── sfu-ws-manager.js # WebSocket communication manager
-
+│   ├── client/                    # Client application files
+│   │   ├── client-page.html       # Client HTML interface
+│   │   ├── client-script.js       # Client WebRTC logic
+│   │   └── client-styles.css      # Client styling
+│   ├── node/                      # Node.js signaling server
+│   │   └── signalling-server.js   # WebSocket signaling server
+│   └── sfu/                       # Browser-based SFU implementation
+│       ├── sfu.html              # SFU HTML interface
+│       ├── sfu-user-manager.js   # User management and WebRTC handling
+│       └── sfu-ws-manager.js     # WebSocket communication manager
 ```
 
   
